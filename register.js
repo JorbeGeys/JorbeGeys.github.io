@@ -10,7 +10,7 @@ document.getElementById("registerForm").addEventListener("submit", (event) => {
 	//check the passwords
 	if (user.password == user.password2) {
 		//register the user
-		getData("http://localhost:3001/register", "POST", user).then((data) => {
+		getData("https://web2-back-end-server.onrender.com/register", "POST", user).then((data) => {
 			alert(data.message);
 		});
 	} else {

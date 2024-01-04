@@ -6,7 +6,7 @@ console.log(user);
 
 function deleteComment(id) {
 	console.log("delete function");
-	getData(`https://jorbegeys.github.io/CommentDelete/${id}`, "DELETE").then((data) => {
+	getData(`https://web2-back-end-server.onrender.com/CommentDelete/${id}`, "DELETE").then((data) => {
 		console.log(data);
 	});
 }
@@ -22,7 +22,7 @@ function addComment(id, resort_name, user_name, comment, stars) {
 		profile_img: "images/profile_img.png",
 	};
 
-	getData(`https://jorbegeys.github.io/CommentPost`, "POST", updatedComment).then((data) => {
+	getData(`https://web2-back-end-server.onrender.com/CommentPost`, "POST", updatedComment).then((data) => {
 		console.log("data Post succesful");
 	});
 }
