@@ -6,7 +6,7 @@ document.getElementById("loginform").addEventListener("submit", (event) => {
 	user.password = document.getElementById("inputPassword").value;
 
 	//check for login
-	getData("http://localhost:3001/login", "POST", user).then((data) => {
+	getData("https://web2-back-end-server.onrender.com/login", "POST", user).then((data) => {
 		if (data.status == "Authentication succesfull") {
 			localStorage.setItem("user", JSON.stringify(user));
 			window.location.href = "userComments.html";

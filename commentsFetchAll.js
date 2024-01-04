@@ -2,7 +2,7 @@ import Comments from "../Comments.js";
 let allComments = [];
 
 async function populateComments() {
-	let data = await getData("http://localhost:3001/Comments", "GET");
+	let data = await getData("https://web2-back-end-server.onrender.com/Comments", "GET");
 	for (let i = 0; i < data.data.length; i++) {
 		let comment = new Comments(data.data[i]._id, data.data[i].resort_name, data.data[i].user_name, data.data[i].comment, data.data[i].stars, data.data[i].profile_img);
 		allComments.push(comment);
