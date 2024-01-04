@@ -1,0 +1,64 @@
+#loginform {
+	margin: 10% 25% 10% 25%;
+	width: 50%;
+	color: white;
+}
+
+#loginform > div {
+	/* Center the form elements vertically */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-control {
+	background-color: #f04c24;
+	border: 0;
+	color: white;
+	width: 30%;
+	height: 30px;
+}
+
+.form-label {
+	font-family: "Dubai";
+	src: url("./fonts/DUBAI-REGULAR.TTF") format("truetype");
+	font-size: 20px;
+}
+
+#form_buttons {
+	color: #f04c24;
+}
+
+a {
+	color: #f04c24;
+	text-decoration: none;
+	font-family: "Dubai";
+	src: url("./fonts/DUBAI-REGULAR.TTF") format("truetype");
+	font-size: 20px;
+	margin: 2%;
+}
+
+#login-buttons {
+	/* Use flexbox to arrange the items horizontally */
+	margin: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#login-buttons > * {
+	margin: 0 10px;
+}
+
+#Login-button {
+	background-color: #f04c24;
+	border: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#logo {
+	line-height: 35px;
+}

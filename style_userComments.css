@@ -1,0 +1,41 @@
+.comment_items {
+	width: 50%;
+	margin: 5% 20% 5% 20%;
+	padding: 5%;
+	background-color: #f04c24;
+	border-radius: 10px;
+}
+
+.comment_items input {
+	background-color: #f04c24;
+	color: white;
+	border: 2px solid white;
+	border-radius: 4px;
+}
+
+.comment_header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.seeThrough {
+	color: #f04c24;
+}
+
+.updateButton {
+	text-align: center;
+	color: #f04c24;
+	background-color: white;
+	width: 15%;
+	border-radius: 7px;
+	margin: 2% 0 2% 0;
+}
+
+.starsInputBox {
+	margin-top: 3%;
+	height: 15px;
+	text-align: end;
+}

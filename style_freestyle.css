@@ -1,0 +1,73 @@
+#freestyle_resorts {
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 7%;
+}
+
+#freestyle_resorts div {
+	width: 25%;
+	position: relative;
+	text-align: center;
+}
+
+#freestyle_resorts a {
+	width: 100%;
+}
+
+#freestyle_resorts img {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#freestyle_resorts h3,
+p {
+	color: #f04c24;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	line-height: 40px;
+}
+
+#freestyle_resorts h3 {
+	transform: translate(-50%, -75%);
+	-webkit-text-stroke: 0.5px white;
+}
+
+#freestyle_resorts p {
+	transform: translate(-50%, 10%);
+}
+
+#sort h3 {
+	text-align: end;
+	color: black;
+	margin: 6.25%;
+}
+
+footer p {
+	color: white;
+	position: static;
+}
+
+.webcamsBtn {
+	text-decoration: none;
+	align-self: end;
+}
+
+.webcamsBtn h3 {
+	font-size: 22px;
+	color: white;
+	background-color: #f04c24;
+	padding: 0.7%;
+	border-radius: 4px;
+	position: relative;
+	top: 0;
+	right: 0;
+	margin: 3% 6% 1% 6%;
+	width: min-content;
+}
